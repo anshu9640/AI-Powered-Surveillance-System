@@ -1,0 +1,29 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# outputs
+out_*/
+**/frames/
+**/snippets/
+alerts.json
+
+# models / large weights
+models/*.pth
+*.pt
+
+# datasets
+UCSD_*/
+UCSDped*/
+*.tif
+*.tiff
+*.jpg
+*.png
+*.avi
+*.mp4
+
+# editor/OS
+.vscode/
+.DS_Store
+Thumbs.db
